@@ -1,8 +1,5 @@
-const { constants } = require('buffer');
 const Crypto = require('crypto');
 const request = require('request');
-const axios = require('request');
-const { PassThrough } = require('stream');
 
 module.exports = async function (context, req) {
     context.log('JavaScript HTTP trigger function processed a request.');
